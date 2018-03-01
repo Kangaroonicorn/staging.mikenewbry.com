@@ -1,0 +1,130 @@
+.thin {
+  font-weight:100;
+}
+.extra-light {
+  font-weight: 200;
+}
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700 !important;
+}
+.black {
+  font-weight: 900;
+}
+.cap {
+  text-transform: uppercase;
+}
+
+.white a{
+  color: $white;
+  -webkit-transition-property: color letter-spacing font-weight;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-property: color letter-spacing;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  &:hover {
+    color: $fire;
+    letter-spacing: .75em;
+    -webkit-transition-property: color letter-spacing;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-property: color letter-spacing;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    cursor: s-resize;
+  }
+  &:visited {
+    color: $white;
+  }
+}
+
+p {
+  font-weight: 300;
+}
+
+.reveal {
+  p, h1, h2, h3, h4, h5, h6, span {
+    color: $black;
+  }
+}
+
+.comment::before {
+  content: '//';
+  color: $fire;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.coder::before {
+  content: '</>';
+  color: $fire;
+  font-weight: bold;
+  font-size: .9em;
+  transform: translateY 30px;
+}
+
+.artist::before {
+  content: '©';
+  color: $fire;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.human::before {
+  content: ':)';
+  color: $fire;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+h1 {
+  letter-spacing: 0em;
+}
+
+.wide-kerning{
+  letter-spacing: .5em;
+}
+
+//typing marquee styles
+.type-wrap {
+  font-size: 30px;
+}
+.typed-cursor {
+  color: $fire;
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+@-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-ms-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}

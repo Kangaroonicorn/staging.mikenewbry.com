@@ -1,0 +1,82 @@
+.gradient-background {
+  background-size: cover;
+  background-attachment: fixed;
+}
+.gradient-background.drops {
+  background-image: url("/assets/img/bg-gradient-drops.jpg");
+}
+.gradient-background.rocks {
+  background-image: url("/assets/img/bg-gradient-rocks.jpg");
+}
+.gradient-background.code {
+  background-image: url("/assets/img/bg-gradient-code.jpg");
+}
+.slate-border-top {
+  border-top: $slate 50px solid;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.caption {
+  max-width: 350px;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+  width: 100vw;
+  height: 60vh;
+}
+
+.me {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.spacer {
+  clear: both;
+  display: block;
+}
+.spacer.small {
+  height: 3rem;
+}
+.spacer.medium {
+  height: 6rem;
+}
+.spacer.large {
+  height: 9rem;
+}
+
+.section {
+  padding: 3rem 0 6rem 0;
+}
+
+.res {
+  width: 340px;
+  -webkit-transition: width .2s ease-in-out;
+  -moz-transition: width .2s ease-in-out;
+  -o-transition: width .2s ease-in-out;
+  transition: width .2s ease-in-out;
+  &:hover {
+    width: 350px;
+    -webkit-transition: width .2s ease-in-out;
+    -moz-transition: width .2s ease-in-out;
+    -o-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+    cursor: zoom-in;
+  }
+}
+.res-cell {
+  display: block;
+  width: 350px;
+  height: 220px;
+  margin: 0 auto;
+}
+.res-reveal {
+  max-width: 75%;
+  display: block;
+  margin:3rem auto;
+}
