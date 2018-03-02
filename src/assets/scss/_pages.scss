@@ -121,3 +121,33 @@
   display: block;
   margin:3rem auto;
 }
+.photo {
+  width: 240px;
+  -webkit-transition: width .2s ease-in-out;
+  -moz-transition: width .2s ease-in-out;
+  -o-transition: width .2s ease-in-out;
+  transition: width .2s ease-in-out;
+  &:hover {
+    width: 250px;
+    -webkit-transition: width .2s ease-in-out;
+    -moz-transition: width .2s ease-in-out;
+    -o-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+    cursor: zoom-in;
+  }
+}
+.photo-cell {
+  display: block;
+  width: 250px;
+  height: 220px;
+  margin: 0 auto;
+}
+.photo-reveal {
+  max-width: 75%;
+  display: block;
+  margin:3rem auto;
+}
+.orbit-bullets button {
+  width: 115px !important;
+  height: auto !important;
+}
