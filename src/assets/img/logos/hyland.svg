@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 727.54 179.34">
+  <defs>
+    <style>
+      .cls-1, .cls-12 {
+        fill: #1c3664;
+      }
+
+      .cls-2 {
+        fill: #3f72b8;
+      }
+
+      .cls-3 {
+        font-size: 76.89px;
+        letter-spacing: -0.06em;
+      }
+
+      .cls-13, .cls-3 {
+        fill: #a7c7e9;
+        font-family: OpenSans-Semibold, Open Sans;
+      }
+
+      .cls-13, .cls-4, .cls-5, .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.12em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.08em;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-7, .cls-8, .cls-9 {
+        font-family: OpenSans-Light, Open Sans;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.13em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-12 {
+        font-size: 24px;
+        letter-spacing: -0.05em;
+      }
+
+      .cls-13 {
+        font-size: 25.67px;
+        letter-spacing: -0.06em;
+      }
+    </style>
+  </defs>
+  <title>hyland</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" y="40.73" width="727.39" height="104.13"/>
+        <g>
+          <g>
+            <path d="M317.65,83.11S163.8,9.91,0,144.86H34.27C173.15,12.5,317.65,83.11,317.65,83.11Z"/>
+            <polygon points="182.75 65.01 155.54 63.29 172.31 68.28 175.32 80.18 182.75 65.01"/>
+          </g>
+          <g>
+            <path class="cls-2" d="M317.65,83.11S242.72-140,0,144.86H34.27C242.2-127.66,317.65,83.11,317.65,83.11Z"/>
+            <polygon class="cls-2" points="149.78 21.45 97.07 24.78 131.6 33.26 143.49 64.29 149.78 21.45"/>
+          </g>
+        </g>
+        <text class="cls-3" transform="translate(140.86 137.88)"><tspan class="cls-4">HYLA</tspan><tspan class="cls-5" x="177.91" y="0">N</tspan><tspan class="cls-6" x="228.98" y="0">D</tspan><tspan class="cls-7" x="291.94" y="0">T</tspan><tspan class="cls-8" x="328.31" y="0">R</tspan><tspan class="cls-9" x="374" y="0">A</tspan><tspan class="cls-10" x="410.29" y="0">V</tspan><tspan class="cls-11" x="451.29" y="0">E</tspan><tspan class="cls-8" x="488.1" y="0">L</tspan></text>
+        <text class="cls-12" transform="translate(396.29 172.89)">AN AFFILIATE OF ANDAVO TRAVEL</text>
+        <text class="cls-13" transform="translate(674.85 137.88)">LLC</text>
+      </g>
+    </g>
+  </g>
+</svg>
