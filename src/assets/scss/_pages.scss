@@ -19,6 +19,15 @@
   display: block;
   margin: 0 auto;
 }
+.center-block {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-25%);
+  display: block;
+}
+.hide-overflow {
+  overflow: hidden;
+}
 
 .caption {
   max-width: 350px;
