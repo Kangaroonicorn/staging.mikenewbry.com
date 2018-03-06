@@ -1,20 +1,20 @@
 .thin {
-  font-weight:100;
+  font-weight:100 !important;
 }
 .extra-light {
-  font-weight: 200;
+  font-weight: 200 !important;
 }
 .light {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .regular {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .bold {
   font-weight: 700 !important;
 }
 .black {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 .cap {
   text-transform: uppercase;
@@ -70,7 +70,7 @@ p {
 }
 
 .artist::before {
-  content: '©';
+  content: '//';
   color: $fire;
   font-weight: bold;
   font-size: .9em;

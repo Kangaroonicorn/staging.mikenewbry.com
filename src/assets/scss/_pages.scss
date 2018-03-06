@@ -41,13 +41,22 @@
   display: block;
 }
 .spacer.small {
-  height: 3rem;
+  height: 1.5rem;
+  @include breakpoint (large) {
+    height: 3rem;
+  }
 }
 .spacer.medium {
-  height: 6rem;
+  height: 2rem;
+  @include breakpoint (large) {
+    height: 6rem;
+  }
 }
 .spacer.large {
-  height: 9rem;
+  height: 4rem;
+  @include breakpoint (large) {
+    height: 9rem;
+  }
 }
 
 .section {
@@ -94,6 +103,12 @@
   }
 }
 
+.contact {
+  img {
+    width: 4rem;
+    margin-right: 1em;
+  }
+}
 
 .res {
   width: 340px;
