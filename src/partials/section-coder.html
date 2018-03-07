@@ -40,6 +40,43 @@
             </div>
         </div>
 
+        <div class="cell large-4 medium-6">
+            <div class="res-cell">
+                <a data-open="email"><img class="center res" src="/assets/img/res-email-thumb.png"></a>
+            </div>
+            <div class="caption center">
+                <a data-open="email"><h3 class="text-center light">Airtinerary Email Service</h3></a>
+                <p>Christopherson Business Travel sends about 10,000 emails per day to millions of travelers. Coding HTML emails is hard enough, but creating an email that can deliver unique, up-to-the-minute data to 64 million different travelers? Yeah, it's complicated.</p>
+                <p><strong>My contributions:</strong> HTML, Apache Velocity, Design and Prototyping, Client Testing (Email on Acid), User Testing  <a data-open="email">more...</a></p>
+            </div>
+            <div class="spacer medium"></div>
+        </div>
+        <div class="large reveal" id="email" data-reveal>
+            <img class="res-reveal" src="/assets/img/res-email.png">
+            <div class="grid-x grid-margin-x">
+                <div class="cell large-6 large-offset-3">
+                    <h3>About this project</h3>
+                    <h5 class="regular">How it's coded</h5>
+                    <p>These emails are compiled using Java and a template engine called <a href="http://velocity.apache.org/">Velocity</a>. The Java variables are inserted into the HTML. Data is pulled from the AirPortal database at runtime.</p>
+                    <p>I've coded dozens of templates that are used thousands of times each day.</p>
+                    <h5 class="regular">It's kind of a big deal</h5>
+                    <p>AirPortal is the SaaS that Christopherson Business Travel offers its clients. One of the main features of AirPortal is Airtinerary-- the automated itinerary system. For most AirPortal users, receiving an itinerary in their inbox is their first touch point with the company.</p>
+                    <p>These itinerary templates have to accommodate a wide array of trip scenarios, with segments for air, car, hotel, train, cruise, trip insurance, etc.</p>
+                    <p>This automated email system also sends messages to travelers for cases like a flight that's booked without a hotel, a warning of for a potential issue that could delay their travel, even a safety check in the event of a catastrophy within the traveler's proximity.</p>
+                    <h5 class="regular">Getting it right</h5>
+                    <p>It's crucial to get it right, not only because it's the users first impression of the Christopherson brand, but because the information that we're delivering has to be accurate.</p>
+                    <p>The process begins with ideation, business requirements and design. When the mock-up is approved I'll begin coding an HTML email. If you've never coded an email before, imagine coding a website that has to work in Netscape 2.0 on a Compaq 486, but still look modern.</p>
+                    <p>After the HTML is written I can begin parsing the email into a Velocity template and swap out the mock data for the Java variables.</p>
+                    <p>The back-end developers handle the web services endpoints that deliver the data, and when that's working I can test the email in <a href="https://www.emailonacid.com/">Email on Acid</a>.</p>
+                    <p>And that's where baby emails come from.</p>
+                    <p></p>
+                    <button type="button" class="button" data-close aria-label="Close modal">Close</button>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
         <div class="cell large-4 medium-6">
             <div class="res-cell">
@@ -69,14 +106,26 @@
                     <p>My vision for this site was to make the site as personal as possible. No smiling girls with headsets. No generic stock photography. I wanted to feature real Andavo people and let them tell their stories.</p>
                     <p>At the annual AndavoMart convention, a coworker and I set up a studio space to do interviews. We also shot plenty of b-roll footage to help tell the story. I edited the footage into a series of clips like <a href="https://vimeo.com/250337961">this one.</a></p>
                     <p>Knowing that the videos would be a central feature of the website, I designed the site around the look and feel of the videos.</p>
-                    <h5 class="regular">Numbers. Get me numbers</h5>
-                    <p>After having a personal feel, my second goal in the design of the site was to present only the most relevant information as concisely as possible. I worked with the marketing department to come up with attention grabbing statistics that could be shown prominently on the homepage.</p>
+                    <h5 class="regular">The numbers don't lie</h5>
+                    <p>My second goal in the design of the site after having a personal feel, was to present only the most relevant information as concisely as possible. I worked with the marketing department to come up with attention grabbing statistics that could be shown prominently on the homepage.</p>
                     <button type="button" class="button" data-close aria-label="Close modal">Close</button>
                     <button class="close-button" data-close aria-label="Close modal" type="button">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
             </div>
+        </div>
+
+        <div class="cell large-4 medium-6">
+            <div class="res-cell">
+                <a data-open="resume"><img class="center res" src="/assets/img/res-resume-thumb.png"></a>
+            </div>
+            <div class="caption center">
+                <a  href="http://mikenewbry.com/resume" target="_blank"><h3 class="text-center light">My Résumé</h3></a>
+                <p>I wanted to do something different with my resume. Something more personality. Something with <a href="http://www.nbc.com/saturday-night-live/video/more-cowbell-with-will-ferrell-on-snl-video-saturday-night-live-nbc/3506001?snl=1" target="_blank">more cowbell</a>!</p>
+                <p><strong>How I did it:</strong> Well, I don't want to spoil any surprises, but if you have 2 minutes go ahead and click. Everything will be explained, I promise. <a href="http://mikenewbry.com/resume" target="_blank">View the resume.</a></p>
+            </div>
+            <div class="spacer medium"></div>
         </div>
 
         <div class="cell large-4 medium-6">
@@ -159,7 +208,7 @@
             <div class="caption center">
                 <a href="http://carfling.com" target="_blank"><h3 class="text-center light">Carfling.com</h3></a>
                 <p>Carfling was one of my favorite clients when I ran my own marketing business from 2010-2013. My coding has greatly improved since then but I still enjoy this unique design. This site was one of my first responsive sites that was done without a CMS template.</p>
-                <p><strong>My contributions:</strong> HTML (Foundation 5), CSS (SASS), Designer, Developer <a href="http://carfling.com" target="_blank">http://carfling.com</a></p>
+                <p><strong>How I did it:</strong> HTML (Foundation 5), CSS (SASS), Completely original design and graphics. Visit <a href="http://carfling.com" target="_blank">http://carfling.com</a> or <a href="https://github.com/Kangaroonicorn/carfling.com" target="_blank">View this project on GitHub.</a></p>
             </div>
             <div class="spacer medium"></div>
         </div>
@@ -170,6 +219,18 @@
             <button class="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
             </button>
+        </div>
+
+        <div class="cell large-4 medium-6">
+            <div class="res-cell">
+                <a href="https://github.com/Kangaroonicorn/staging.mikenewbry.com" target="_blank"><img class="center res" src="/assets/img/res-portfolio-thumb.png"></a>
+            </div>
+            <div class="caption center">
+                <a data-open="resume"><h3 class="text-center light">This...</h3></a>
+                <p>Can I include my portfolio in my portfolio? Whoa. I just blew my own mind. It should go without saying that the design and content here are 100% original.</p>
+                <p><strong>How I did it:</strong> This site uses Foundation 6 and a lot of JavaScript (HandlebarsJS) to handle the partials and increments. There's a sprinkling of YAML in there to make content updates quick and easy. <a href="https://github.com/Kangaroonicorn/staging.mikenewbry.com" target="_blank">View this project on GitHub.</a></p>
+            </div>
+            <div class="spacer medium"></div>
         </div>
     </div>
 </div>
