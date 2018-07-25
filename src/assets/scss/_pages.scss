@@ -185,6 +185,15 @@
 }
 
 .site-thumb {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  img {
+  }
+}
+
+.site-thumb {
   height: 0;
   width: 0;
 }

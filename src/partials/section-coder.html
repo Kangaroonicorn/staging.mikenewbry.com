@@ -6,68 +6,35 @@
             <p>Here are a few of my past projects and what I contributed.</p>
             <div class="spacer medium"></div>
         </div>
-        <div class="cell large-4 medium-6">
-            <div class="res-cell">
-                <a data-open="coder1"><img class="center res" src="/assets/img/res-airportal-thumb.png"></a>
-            </div>
-            <div class="caption center">
-                <a data-open="coder1"><h3 class="text-center light">AirPortal</h3></a>
-                <p>AirPortal is the flagship software produced by Christopherson Business Travel. It has over 100,000 active users. </p>
-                <p><strong>My contributions:</strong> HTML (Foundation 5), CSS (SASS), JavaScript (Datatables), PHP (Zend MVC), MySQL, Design and Prototyping, User Testing  <a data-open="coder1">more...</a></p>
-            </div>
-            <div class="spacer medium"></div>
-        </div>
-        <div class="large reveal" id="coder1" data-reveal>
-            <img class="res-reveal" src="/assets/img/res-airportal.png">
-            <div class="grid-x grid-margin-x">
-                <div class="cell large-6 large-offset-3">
-                    <h3>About this project</h3>
-                    <h5 class="regular">How it's coded</h5>
-                    <p>AirPortal is built on a Zend MVC framework for the frontend. HTML and CSS are managed with the Foundation library. Other libraries are used to manage JavaScript. While working on AirPortal I've learned how to make the frontend talk to the backend using PHP to connect to the REST and SOAP endpoints.</p>
-                    <h5 class="regular">SaaS</h5>
-                    <p>AirPortal is a SaaS that CB Travel Corp provides to its clients. It is primarily a travel management and reporting tool. It brings together custom data provided by the user with data collected from the Global Distribution Network, a source of data for airlines, hotels and other travel bookings. It also combines that data with real time data on travel conditions and events that could pose delays and security threats.</p>
-                    <p>The majority of my coding experience over the last four years has been in various projects within AirPortal. Sometimes it was creating an entirely new view and connecting to new endpoints. Other times it was simply cleaning up the HTML and CSS or converting and existing view to a responsive layout.</p>
-                    <h5 class="regular">A responsive refresh</h5>
-                    <p>When I started at Christopherson, AirPortal had no responsive layouts, and the overall design was functional, but not intuitive.</p>
-                    <p>From 2014-2018 I worked with a great team of developers to give AirPortal a complete responsive makeover, while constantly adding new features and refining existing ones.</p>
-                    <p>I've also learned a lot about data architecture and have occasionally made changes directly in the MySQL databases. While it's important for each memeber of the team to know their role, I feel important for frontend developers to understand the data and web services layers to be able ot optimise the user experience and meet deployment deadlines.</p>
-                    <p></p>
-                    <button type="button" class="button" data-close aria-label="Close modal">Close</button>
-                    <button class="close-button" data-close aria-label="Close modal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            </div>
-        </div>
 
         <div class="cell large-4 medium-6">
             <div class="res-cell">
-                <a data-open="email"><img class="center res" src="/assets/img/res-email-thumb.png"></a>
+                <a data-open="email2"><img class="center res" src="/assets/img/res-email-thumb.png"></a>
             </div>
             <div class="caption center">
-                <a data-open="email"><h3 class="text-center light">Airtinerary Emails</h3></a>
+                <a data-open="email2"><h3 class="text-center light">Airtinerary Emails</h3></a>
                 <p>Christopherson Business Travel sends about 10,000 emails per day to thousands of travelers. Coding HTML emails is hard enough, but creating emails that can deliver unique, up-to-the-minute data to 64 million registered travelers? Yeah, it's complicated.</p>
-                <p><strong>My contributions:</strong> HTML, Apache Velocity, Design and Prototyping, Client Testing (Email on Acid), User Testing  <a data-open="email">more...</a></p>
+                <p><strong>My contributions:</strong> HTML, Apache Velocity, Design and Prototyping, Client Testing (Email on Acid), User Testing  <a data-open="email2">more...</a></p>
             </div>
             <div class="spacer medium"></div>
         </div>
-        <div class="large reveal" id="email" data-reveal>
+        <div class="large reveal" id="email2" data-reveal>
             <img class="res-reveal" src="/assets/img/res-email.png">
             <div class="grid-x grid-margin-x">
                 <div class="cell large-6 large-offset-3">
                     <h3>About this project</h3>
                     <h5 class="regular">How it's coded</h5>
-                    <p>These emails are compiled using Java and a template engine called <a href="http://velocity.apache.org/">Velocity</a>. The Java variables are inserted into the HTML. Data is pulled from the AirPortal database at runtime.</p>
+                    <p>These emails are compiled using Java and a template engine called <a href="http://velocity.apache.org/" target="_blank">Velocity</a>. The Java variables are inserted into the HTML. Data is pulled from the AirPortal database at runtime.</p>
                     <p>I've coded dozens of templates that are used thousands of times each day.</p>
                     <h5 class="regular">It's kind of a big deal</h5>
                     <p>AirPortal is the SaaS that Christopherson Business Travel offers its clients. One of the main features of AirPortal is Airtinerary-- the automated itinerary system. For most AirPortal users, receiving an itinerary in their inbox is their first touch point with the company.</p>
                     <p>These itinerary templates have to accommodate a wide array of trip scenarios, with segments for air, car, hotel, train, cruise, trip insurance, etc.</p>
-                    <p>This automated email system also sends messages to travelers for cases like a flight that's booked without a hotel, a warning of for a potential issue that could delay their travel, even a safety check in the event of a catastrophy within the traveler's proximity.</p>
+                    <p>This automated email system also sends messages to travelers for cases like a trip that's missing a hotel, a warning of for potential travel disruptions, even a safety check in the event of a catastrophy within the traveler's proximity.</p>
                     <h5 class="regular">Getting it right</h5>
                     <p>It's crucial to get it right, not only because it's the users first impression of the Christopherson brand, but because the information that we're delivering has to be accurate.</p>
                     <p>The process begins with ideation, business requirements and design. When the mock-up is approved I'll begin coding an HTML email. If you've never coded an email before, imagine coding a website that has to work in Netscape 2.0 on a Compaq 486, but still look modern.</p>
                     <p>After the HTML is written I can begin parsing the email into a Velocity template and swap out the mock data for the Java variables.</p>
-                    <p>The back-end developers handle the web services endpoints that deliver the data, and when that's working I can test the email in <a href="https://www.emailonacid.com/">Email on Acid</a>.</p>
+                    <p>The back-end developers handle the web services endpoints that deliver the data, and when that's working I can test the email in <a href="https://www.emailonacid.com/" target="_blank">Email on Acid</a>.</p>
                     <p>And that's where baby emails come from.</p>
                     <p></p>
                     <button type="button" class="button" data-close aria-label="Close modal">Close</button>
@@ -99,12 +66,12 @@
                     <h5 class="regular">How it was coded</h5>
                     <p>My go-to framework is Foundation. This site uses Foundation 6, of course with many custom styles. I wrote some custom JavaScript to handle things like the menu animations.</p>
                     <h5 class="regular">Getting on message</h5>
-                    <p>Although the existing <a href="http://andavotravel.com">Andavo Travel website</a> was an award winning site and was only a few years old, we decided that the message had changed since the site launched and it was time for a complete makeover.</p>
+                    <p>Although the existing <a href="http://andavotravel.com" target="_blank">Andavo Travel website</a> was an award winning site and was only a few years old, we decided that the message had changed since the site launched and it was time for a complete makeover.</p>
                     <p>As with most sites, the message was integral to the design. In the previous site, the most prominent feature of the homepage was a slider with a plane, a hotel, and a rental car. These are things that appeal to the traveler, but our target demographic was actually the independent travel agent.</p>
                     <p>The goal of the site is to entice agents (or independent consultants, as they are known in the industry) to bring their book of clients over to Andavo Travel, and allow us to be their host agency, meaning we would handle vendor contracts, etc.</p>
                     <h5 class="regular">No stock smiley girls</h5>
                     <p>My vision for this site was to make the site as personal as possible. No smiling girls with headsets. No generic stock photography. I wanted to feature real Andavo people and let them tell their stories.</p>
-                    <p>At the annual AndavoMart convention, a coworker and I set up a studio space to do interviews. We also shot plenty of b-roll footage to help tell the story. I edited the footage into a series of clips like <a href="https://vimeo.com/250337961">this one.</a></p>
+                    <p>At the annual AndavoMart convention, a coworker and I set up a studio space to do interviews. We also shot plenty of b-roll footage to help tell the story. I edited the footage into a series of clips like <a href="https://vimeo.com/250337961" target="_blank">this one.</a></p>
                     <p>Knowing that the videos would be a central feature of the website, I designed the site around the look and feel of the videos.</p>
                     <h5 class="regular">The numbers don't lie</h5>
                     <p>My second goal in the design of the site after having a personal feel, was to present only the most relevant information as concisely as possible. I worked with the marketing department to come up with attention grabbing statistics that could be shown prominently on the homepage.</p>
@@ -118,7 +85,7 @@
 
         <div class="cell large-4 medium-6">
             <div class="res-cell">
-                <a href="http://mikenewbry.com/resume"><img class="center res" src="/assets/img/res-resume-thumb.png"></a>
+                <a href="http://mikenewbry.com/resume" target="_blank"><img class="center res" src="/assets/img/res-resume-thumb.png"></a>
             </div>
             <div class="caption center">
                 <a href="http://mikenewbry.com/resume" target="_blank"><h3 class="text-center light">My Résumé</h3></a>
@@ -170,7 +137,7 @@
                     <h5 class="regular">Leveling the playing field</h5>
                     <p>Because all the travel agents are competing for leads, one of the challenges was to make sure that no one was given an unfair advantage when a user comes to the site. To prevent this we randomized the list of agents that appeared in a search.</p>
                     <h5 class="regular">Increasing adoption</h5>
-                    <p>We wanted the <a href="http://andavovacations.com/advisor">advisor profile pages</a> to be something that the travel advisors would want to use. This means that it had be be simple but customizable. A wysywg editor was out of the question because we wanted the pages to have a consistant look, and as a designer, the idea of allowing bold, red, underlined text on a page gives me heart palpitations.</p>
+                    <p>We wanted the <a href="http://andavovacations.com/advisor" target="_blank">advisor profile pages</a> to be something that the travel advisors would want to use. This means that it had be be simple but customizable. A wysywg editor was out of the question because we wanted the pages to have a consistant look, and as a designer, the idea of allowing bold, red, underlined text on a page gives me heart palpitations.</p>
                     <p>I created several fields that would allow them to make their personal pitch to the user in a clean and consistent way. The suggested fields also made it simpler for the travel advisors to craft their message. I also curated 60 header banners that the advisor could randomize, or choose one that they like best.</p>
                     <p>The profile pages were so well received that some travel advisors have abandoned their old websites, and now use their advisor profile page as their primary online presence.</p>
                     <button type="button" class="button" data-close aria-label="Close modal">Close</button>
@@ -188,7 +155,7 @@
             <div class="caption center">
                 <a href="http://serranohotel.com" target="_blank"><h3 class="text-center light">SerranoHotel.com</h3></a>
                 <p>Serrano Hotel was a project I worked on in 2013. In addition to contributing to the frontend code, I designed the hotel's logo and took some of the photos that are used on the site and in the hotel's promotional materials.</p>
-                <p><strong>My contributions:</strong> HTML, CSS, Designer, Developer, Photographer <a href="http://serranohotel.com">http://SerranoHotel.com</a></p>
+                <p><strong>My contributions:</strong> HTML, CSS, Designer, Developer, Photographer <a href="http://serranohotel.com" target="_blank">http://SerranoHotel.com</a></p>
             </div>
             <div class="spacer medium"></div>
         </div>
