@@ -72,46 +72,6 @@
   padding: 3rem 0 6rem 0;
 }
 
-.github-link {
-  height: 35px;
-  display: block;
-  width: 200px;
-  padding-top: 15px;
-  .icon {
-    width: 25px;
-    padding-right: 5px;
-    -webkit-transition: width .2s ease-in-out;
-    -moz-transition: width .2s ease-in-out;
-    -o-transition: width .2s ease-in-out;
-    transition: width .2s ease-in-out;
-  }
-  .text {
-    opacity: 0;
-    -webkit-transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -o-transition: opacity .2s ease-in-out;
-    transition: opacity .2s ease-in-out;
-    font-size: 1em;
-    font-weight: 400;
-  }
-  &:hover {
-    .icon {
-      width: 35px;
-      -webkit-transition: width .5s ease-in-out;
-      -moz-transition: width .5s ease-in-out;
-      -o-transition: width .5s ease-in-out;
-      transition: width .5s ease-in-out;
-    }
-    .text {
-      opacity: 10;
-      -webkit-transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -o-transition: opacity .2s ease-in-out;
-      transition: opacity .2s ease-in-out;
-    }
-  }
-}
-
 .contact {
   img {
     width: 4rem;
@@ -196,4 +156,52 @@
 .site-thumb {
   height: 0;
   width: 0;
+}
+
+.small-icons {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  .icon {
+    height: 35px;
+    display: block;
+    width: 35rem;
+    padding-top: 15px;
+    .icon {
+      width: 25px;
+      padding-right: 5px;
+      -webkit-transition: width .2s ease-in-out;
+      -moz-transition: width .2s ease-in-out;
+      -o-transition: width .2s ease-in-out;
+      transition: width .2s ease-in-out;
+    }
+    .text {
+      opacity: 0;
+      -webkit-transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -o-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+      font-size: 1em;
+      font-weight: 400;
+      position: absolute;
+      margin-top: -22px;
+      margin-left: 35px;
+    }
+    &:hover {
+      .icon {
+        width: 35px;
+        -webkit-transition: width .5s ease-in-out;
+        -moz-transition: width .5s ease-in-out;
+        -o-transition: width .5s ease-in-out;
+        transition: width .5s ease-in-out;
+      }
+      .text {
+        opacity: 10;
+        -webkit-transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+      }
+    }
+  }
 }
