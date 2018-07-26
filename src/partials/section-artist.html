@@ -3,7 +3,7 @@
         <div class="cell large-12">
             <h1 class="artist extra-light" id="artist">Artist</h1>
             <h3 class="text-center light">UX Design</h3>
-            <p class="text-center light">Since 2014 I've been a UX Designer and UI Developer at Christoperson Business Travel. Here are some of the projects I've worked on.</p>
+            <p class="text-center light">Since 2014 I've been a UX Designer and UI Developer at Christoperson Business Travel. Here's a sampling of some of my recent projects.</p>
             <div class="spacer small"></div>
         </div>
 
@@ -102,10 +102,11 @@
             </div>
         </div>
 
-        <div class="cell large-12">
-            <h3 class="text-center light">Logo Design</h3>
+        <div class="cell large-6 large-offset-3">
+            <h3 class="text-center light">Logo Design and Photography</h3>
+            <p>Logo design and photography aren't a part of my everyday work as a UX Designer. But I never miss a chance to show off my art. Speaking of art, you can check out more of my art on <a href="http://behance.net/mikenewbry">Behance</a>.</p>
         </div>
-        <div class="cell large-8 large-offset-2 tiles">
+        <div class="cell large-6 tiles">
             {{#each logo-slider}}
             <a data-open="logo{{ @index }}"><img class="" src="/assets/img/logos/{{ this }}"></a>
             <div class="large reveal" id="logo{{ @index }}" data-reveal>
@@ -115,6 +116,31 @@
                 </button>
             </div>
             {{/each}}
+        </div>
+        <div class="cell large-6">
+            <div class="orbit center" role="region" aria-label="Photography" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                <div class="orbit-wrapper">
+                    <div class="orbit-controls">
+                        <button class="orbit-previous hide-for-small-only"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                        <button class="orbit-next hide-for-small-only"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                    </div>
+                    <ul class="orbit-container">
+                        {{#each photo-slider-large}}
+                        <li class="is-active orbit-slide">
+                            <figure class="orbit-figure">
+                                <img class="orbit-image" src="/assets/img/photo/Portfolio-900/mikenewbry-{{ url }}.jpg" alt="">
+                                <figcaption class="orbit-caption">{{ desc }}</figcaption>
+                            </figure>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <nav class="orbit-bullets">
+                    {{#each photo-slider-large}}
+                    <button data-slide="{{@index}}"><img class="" src="/assets/img/photo/Portfolio-thumb-350/mikenewbry-thumb-{{ url }}.jpg"></button>
+                    {{/each}}
+                </nav>
+            </div>
         </div>
     </div>
 </div>
