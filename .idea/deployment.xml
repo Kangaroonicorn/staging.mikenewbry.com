@@ -5,7 +5,6 @@
       <paths name="jupit3r@mikenewbry.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/staging.mikenewbry.com" local="$PROJECT_DIR$" web="/" />
             <mapping deploy="/public_html" local="$PROJECT_DIR$/dist" web="/" />
           </mappings>
         </serverdata>
