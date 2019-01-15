@@ -69,7 +69,7 @@ p {
   transform: translateY 30px;
 }
 
-.artist::before {
+.slash::before {
   content: '//';
   color: $fire;
   font-weight: bold;
@@ -127,4 +127,32 @@ h1 {
   0% { opacity:1; }
   50% { opacity:0; }
   100% { opacity:1; }
+}
+
+.quote {
+  font-weight: 400;
+  text-indent: 3rem;
+  margin: 3rem 3rem -.25rem 3rem;
+  &:before {
+    content: '"';
+    color: $fire;
+    font-weight: bold;
+    font-size: 6rem;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: -6rem;
+  }
+}
+.attribution {
+  font-style: italic;
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding-right:5rem;
+}
+.proficiency {
+  font-style: italic;
+  text-align: center;
+  margin-top: .5rem;
+  font-size: .8em;
 }
