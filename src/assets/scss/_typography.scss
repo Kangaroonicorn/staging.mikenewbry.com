@@ -132,7 +132,10 @@ h1 {
 .quote {
   font-weight: 400;
   text-indent: 3rem;
-  margin: 3rem 3rem -.25rem 3rem;
+  margin: 1rem;
+  @include breakpoint (large) {
+    margin: 3rem 3rem -.25rem 3rem;
+  }
   &:before {
     content: '"';
     color: $fire;
